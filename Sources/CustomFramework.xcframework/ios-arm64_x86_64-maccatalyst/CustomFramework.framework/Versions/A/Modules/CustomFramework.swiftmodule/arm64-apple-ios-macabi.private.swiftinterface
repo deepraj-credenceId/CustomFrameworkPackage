@@ -67,6 +67,12 @@ extension CustomFramework.DataIdentifier : Swift.CustomStringConvertible {
     get
   }
 }
+precedencegroup ExponentiationPrecedence {
+  associativity: left
+  higherThan: MultiplicationPrecedence
+  lowerThan: BitwiseShiftPrecedence
+}
+infix operator ** : ExponentiationPrecedence
 public struct SDK {
   public static func configure(apiKeu: Swift.String)
   public static func doSomeWork()

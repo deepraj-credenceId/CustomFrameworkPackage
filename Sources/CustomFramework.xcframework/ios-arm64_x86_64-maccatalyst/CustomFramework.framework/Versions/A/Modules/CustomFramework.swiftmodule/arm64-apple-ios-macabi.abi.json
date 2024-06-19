@@ -110,16 +110,6 @@
       },
       {
         "kind": "Import",
-        "name": "BigInt",
-        "printedName": "BigInt",
-        "declKind": "Import",
-        "moduleName": "CustomFramework",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -161,16 +151,6 @@
         "printedName": "Security",
         "declKind": "Import",
         "moduleName": "CustomFramework"
-      },
-      {
-        "kind": "Import",
-        "name": "BigInt",
-        "printedName": "BigInt",
-        "declKind": "Import",
-        "moduleName": "CustomFramework",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
       },
       {
         "kind": "Import",
@@ -2058,16 +2038,6 @@
       },
       {
         "kind": "Import",
-        "name": "BigInt",
-        "printedName": "BigInt",
-        "declKind": "Import",
-        "moduleName": "CustomFramework",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2102,17 +2072,6 @@
       },
       {
         "kind": "Import",
-        "name": "BigInt",
-        "printedName": "BigInt",
-        "declKind": "Import",
-        "moduleName": "CustomFramework",
-        "declAttributes": [
-          "ImplementationOnly",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2149,6 +2108,26 @@
         "moduleName": "CustomFramework",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": "**",
+        "printedName": "**",
+        "declKind": "InfixOperator",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "Infix"
         ]
       },
       {
@@ -2667,17 +2646,6 @@
       },
       {
         "kind": "Import",
-        "name": "BigInt",
-        "printedName": "BigInt",
-        "declKind": "Import",
-        "moduleName": "CustomFramework",
-        "declAttributes": [
-          "ImplementationOnly",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2744,16 +2712,6 @@
         "moduleName": "CustomFramework",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BigInt",
-        "printedName": "BigInt",
-        "declKind": "Import",
-        "moduleName": "CustomFramework",
-        "declAttributes": [
-          "ImplementationOnly"
         ]
       },
       {
@@ -5412,86 +5370,114 @@
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Utils\/Util.swift",
       "kind": "IntegerLiteral",
-      "offset": 307,
+      "offset": 272,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Utils\/Util.swift",
       "kind": "IntegerLiteral",
-      "offset": 352,
+      "offset": 317,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Utils\/Util.swift",
       "kind": "IntegerLiteral",
-      "offset": 396,
+      "offset": 361,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Utils\/Util.swift",
       "kind": "IntegerLiteral",
-      "offset": 439,
+      "offset": 404,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Utils\/Util.swift",
       "kind": "IntegerLiteral",
-      "offset": 482,
+      "offset": 447,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Utils\/Util.swift",
       "kind": "IntegerLiteral",
-      "offset": 525,
+      "offset": 490,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Utils\/Util.swift",
       "kind": "IntegerLiteral",
-      "offset": 571,
+      "offset": 536,
       "length": 2,
       "value": "33"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Utils\/Util.swift",
       "kind": "IntegerLiteral",
-      "offset": 697,
+      "offset": 662,
       "length": 2,
       "value": "-7"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Utils\/Util.swift",
       "kind": "IntegerLiteral",
-      "offset": 744,
+      "offset": 709,
       "length": 3,
       "value": "-35"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Utils\/Util.swift",
       "kind": "IntegerLiteral",
-      "offset": 792,
+      "offset": 757,
       "length": 3,
       "value": "-36"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Utils\/Util.swift",
       "kind": "IntegerLiteral",
-      "offset": 843,
+      "offset": 808,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Utils\/Util.swift",
       "kind": "IntegerLiteral",
-      "offset": 899,
+      "offset": 864,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/GCD.swift",
+      "kind": "IntegerLiteral",
+      "offset": 142,
+      "length": 4,
+      "value": "2000"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/GCD.swift",
+      "kind": "IntegerLiteral",
+      "offset": 307,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/GCD.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/GCD.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3522,
+      "length": 2,
+      "value": "62"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/NFC\/Nder\/NdefRecord.swift",
@@ -6378,126 +6364,126 @@
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 554,
+      "offset": 519,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 620,
+      "offset": 585,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 690,
+      "offset": 655,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 764,
+      "offset": 729,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 824,
+      "offset": 789,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 908,
+      "offset": 873,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 981,
+      "offset": 946,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 1051,
+      "offset": 1016,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 1111,
+      "offset": 1076,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 1195,
+      "offset": 1160,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 1267,
+      "offset": 1232,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 1339,
+      "offset": 1304,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 1407,
+      "offset": 1372,
       "length": 2,
       "value": "23"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 1491,
+      "offset": 1456,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 1563,
+      "offset": 1528,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "Array",
-      "offset": 1589,
+      "offset": 1554,
       "length": 82,
       "value": "[\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"a\", \"b\", \"c\", \"d\", \"e\", \"f\"]"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "Array",
-      "offset": 1693,
+      "offset": 1658,
       "length": 153,
       "value": "[\"0000\", \"0001\", \"0010\", \"0011\", \"0100\", \"0101\", \"0110\", \"0111\", \"1000\", \"1001\", \"1010\", \"1011\", \"1100\", \"1101\", \"1110\", \"1111\"]"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1.swift",
       "kind": "IntegerLiteral",
-      "offset": 6973,
+      "offset": 6938,
       "length": 2,
       "value": "-1"
     },
@@ -6749,7 +6735,7 @@
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1ObjectIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 249,
+      "offset": 213,
       "length": 20,
       "value": "\"CustomFramework.ASN1ObjectIdentifier\""
     },
@@ -6829,6 +6815,230 @@
       "offset": 216,
       "length": 7,
       "value": "\"CustomFramework.ASN1Ctx\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 614,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 659,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 704,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 751,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 797,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 843,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 888,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 935,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 982,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1028,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1074,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3235,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11045,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "FloatLiteral",
+      "offset": 11062,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "StringLiteral",
+      "offset": 11940,
+      "length": 65,
+      "value": "\"000000000000000000000000000000000000000000000000000000000000000\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "Array",
+      "offset": 12090,
+      "length": 204,
+      "value": "[0, 0, 63, 40, 31, 27, 24, 22, 21, 20, 19, 18, 17, 17, 16, 16, 15, 15, 15, 15, 14, 14, 14, 14, 13, 13, 13, 13, 13, 13, 13, 12, 12, 12, 12, 12, 12]"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "Array",
+      "offset": 12370,
+      "length": 1929,
+      "value": "[0, 0, 0x8000000000000000, 0xa8b8b452291fe821, 0x4000000000000000, 0x6765c793fa10079d, 0x41c21cb8e1000000, 0x3642798750226111, 0x8000000000000000, 0xa8b8b452291fe821, 0x8ac7230489e80000, 0x4d28cb56c33fa539, 0x1eca170c00000000, 0x780c7372621bd74d, 0x1e39a5057d810000, 0x5b27ac993df97701, 0x1000000000000000, 0x27b95e997e21d9f1, 0x5da0e1e53c5c8000, 0xd2ae3299c1c4aedb, 0x16bcc41e90000000, 0x2d04b7fdd9c0ef49, 0x5658597bcaa24000, 0xa0e2073737609371, 0xc29e98000000000, 0x14adf4b7320334b9, 0x226ed36478bfa000, 0x383d9170b85ff80b, 0x5a3c23e39c000000, 0x8e65137388122bcd, 0xdd41bb36d259e000, 0xaee5720ee830681, 0x1000000000000000, 0x172588ad4f5f0981, 0x211e44f7d02c1000, 0x2ee56725f06e5c71, 0x41c21cb8e1000000]"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16633,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16655,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "StringLiteral",
+      "offset": 49530,
+      "length": 17,
+      "value": "\"152125131763605\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51750,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53311,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54895,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigInt.swift",
+      "kind": "Array",
+      "offset": 60519,
+      "length": 1877,
+      "value": "[true, true, false, false, true, false, false, false, false, true, false, false, false, false, false, false, true, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, true, true, false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, true, false, false, false, false, false, false, true, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false]"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/Limbs.swift",
+      "kind": "Array",
+      "offset": 209,
+      "length": 881,
+      "value": "[0x1, 0x2, 0x4, 0x8, 0x10, 0x20, 0x40, 0x80, 0x100, 0x200, 0x400, 0x800, 0x1000, 0x2000, 0x4000, 0x8000, 0x10000, 0x20000, 0x40000, 0x80000, 0x100000, 0x200000, 0x400000, 0x800000, 0x1000000, 0x2000000, 0x4000000, 0x8000000, 0x10000000, 0x20000000, 0x40000000, 0x80000000, 0x100000000, 0x200000000, 0x400000000, 0x800000000, 0x1000000000, 0x2000000000, 0x4000000000, 0x8000000000, 0x10000000000, 0x20000000000, 0x40000000000, 0x80000000000, 0x100000000000, 0x200000000000, 0x400000000000, 0x800000000000, 0x1000000000000, 0x2000000000000, 0x4000000000000, 0x8000000000000, 0x10000000000000, 0x20000000000000, 0x40000000000000, 0x80000000000000, 0x100000000000000, 0x200000000000000, 0x400000000000000, 0x800000000000000, 0x1000000000000000, 0x2000000000000000, 0x4000000000000000, 0x8000000000000000]"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/Limbs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7507,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/Limbs.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7533,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/Limbs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11962,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/Limbs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12040,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/Limbs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12114,
+      "length": 4,
+      "value": "6000"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BurnikelZiegler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 2,
+      "value": "60"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/NFC\/Handover\/HandoverRequest.swift",
@@ -7111,6 +7321,20 @@
       "value": "\"Ts\""
     },
     {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/Factorial.swift",
+      "kind": "Array",
+      "offset": 200,
+      "length": 234,
+      "value": "[1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800, 39916800, 479001600, 6227020800, 87178291200, 1307674368000, 20922789888000, 355687428096000, 6402373705728000, 121645100408832000, 2432902008176640000]"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/Factorial.swift",
+      "kind": "Array",
+      "offset": 455,
+      "length": 3,
+      "value": "[1]"
+    },
+    {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Ble\/BLE-Helper\/BLEPeripheralHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 1070,
@@ -7312,6 +7536,69 @@
       "offset": 195,
       "length": 11,
       "value": "\"CustomFramework.ASN1Boolean\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/ExpMod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2324,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/ExpMod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2351,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/ExpMod.swift",
+      "kind": "Array",
+      "offset": 3262,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/ExpMod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3287,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/ExpMod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3312,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/ExpMod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5042,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/ExpMod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5071,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/ExpMod.swift",
+      "kind": "Array",
+      "offset": 5099,
+      "length": 3,
+      "value": "[1]"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/ExpMod.swift",
+      "kind": "Array",
+      "offset": 5131,
+      "length": 3,
+      "value": "[0]"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1OctetString.swift",
@@ -8114,7 +8401,7 @@
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1Integer.swift",
       "kind": "StringLiteral",
-      "offset": 231,
+      "offset": 196,
       "length": 11,
       "value": "\"CustomFramework.ASN1Integer\""
     },
@@ -8887,6 +9174,258 @@
       "offset": 196,
       "length": 12,
       "value": "\"CustomFramework.ASN1Sequence\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 891,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 917,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 937,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 960,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 980,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1006,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1038,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 1110,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 1115,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 1120,
+      "length": 3,
+      "value": "\"3\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 1125,
+      "length": 3,
+      "value": "\"4\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 1130,
+      "length": 3,
+      "value": "\"5\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
+      "length": 3,
+      "value": "\"6\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 1140,
+      "length": 3,
+      "value": "\"7\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 1145,
+      "length": 3,
+      "value": "\"8\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 1150,
+      "length": 3,
+      "value": "\"9\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1261,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1375,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1490,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1521,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1639,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1800,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 1893,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 2111,
+      "length": 3,
+      "value": "\"E\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 2116,
+      "length": 3,
+      "value": "\"e\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 2342,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "StringLiteral",
+      "offset": 2628,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2740,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2871,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3065,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3328,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3394,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3398,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/BIGINT\/BigFrac.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10746,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/ASN1\/ASN1IA5String.swift",
