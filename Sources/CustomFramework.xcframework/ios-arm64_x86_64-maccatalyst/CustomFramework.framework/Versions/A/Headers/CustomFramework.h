@@ -8,11 +8,11 @@
 #import <Foundation/Foundation.h>
 #import <CustomFramework/OpensslWrapper.h>
 #import <CommonCrypto/CommonDigest.h>
-#import <openssl/asn1.h>
-#import <openssl/pem.h>
-#import <openssl/pkcs7.h>
-#import <openssl/sha.h>
-#import <openssl/x509.h>
+//#import <openssl/asn1.h>
+//#import <openssl/pem.h>
+//#import <openssl/pkcs7.h>
+//#import <openssl/sha.h>
+//#import <openssl/x509.h>
 
 //! Project version number for CustomFramework.
 FOUNDATION_EXPORT double CustomFrameworkVersionNumber;
