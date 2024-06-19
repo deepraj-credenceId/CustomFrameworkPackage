@@ -14,6 +14,10 @@ let package = Package(
             name: "CustomFramework",
             targets: ["CustomFramework"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/leif-ibsen/BigInt", from: "1.18.0"),
+        .package(url: "https://github.com/krzyzanowskim/OpenSSL-Package.git", from: "3.1.5004")
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
@@ -26,4 +30,5 @@ let package = Package(
             name: "CustomFramework",
             path: "./Sources/CustomFramework.xcframework")
     ]
+    
 )
