@@ -2740,6 +2740,57 @@
         "printedName": "SDKManager",
         "children": [
           {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKManager",
+                "printedName": "CustomFramework.SDKManager",
+                "usr": "s:15CustomFramework10SDKManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CustomFramework10SDKManagerC6sharedACvpZ",
+            "mangledName": "$s15CustomFramework10SDKManagerC6sharedACvpZ",
+            "moduleName": "CustomFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKManager",
+                    "printedName": "CustomFramework.SDKManager",
+                    "usr": "s:15CustomFramework10SDKManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework10SDKManagerC6sharedACvgZ",
+                "mangledName": "$s15CustomFramework10SDKManagerC6sharedACvgZ",
+                "moduleName": "CustomFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "configure",
             "printedName": "configure(readerCertificate:readerCertificatePrivateKey:issuerCertificates:selectedDataIdentifier:)",

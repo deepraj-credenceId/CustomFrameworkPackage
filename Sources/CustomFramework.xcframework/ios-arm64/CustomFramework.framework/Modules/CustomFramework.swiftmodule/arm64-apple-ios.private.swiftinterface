@@ -80,6 +80,7 @@ public struct SDK {
 extension ObjectiveC.NSObject : Any {
 }
 @_hasMissingDesignatedInitializers public class SDKManager {
+  public static let shared: CustomFramework.SDKManager
   public func configure(readerCertificate: Foundation.Data, readerCertificatePrivateKey: Foundation.Data, issuerCertificates: [Foundation.Data], selectedDataIdentifier: [CustomFramework.DataIdentifier])
   public func createMdlRequest(from qrCode: Swift.String)
   public func createMdlRequestFromNFC()
