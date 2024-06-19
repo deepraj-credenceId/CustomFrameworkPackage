@@ -330,6 +330,1673 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "DataIdentifier",
+        "printedName": "DataIdentifier",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "FamilyName",
+            "printedName": "FamilyName",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO10FamilyNameyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO10FamilyNameyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "GivenNames",
+            "printedName": "GivenNames",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO10GivenNamesyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO10GivenNamesyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "dateOfBirth",
+            "printedName": "dateOfBirth",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO11dateOfBirthyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO11dateOfBirthyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "IssueDate",
+            "printedName": "IssueDate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO9IssueDateyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO9IssueDateyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "ExpiryDate",
+            "printedName": "ExpiryDate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO10ExpiryDateyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO10ExpiryDateyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "IssuingCountry",
+            "printedName": "IssuingCountry",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO14IssuingCountryyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO14IssuingCountryyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "IssuingAuthority",
+            "printedName": "IssuingAuthority",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO16IssuingAuthorityyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO16IssuingAuthorityyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "DocumentNumber",
+            "printedName": "DocumentNumber",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO14DocumentNumberyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO14DocumentNumberyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "Portrait",
+            "printedName": "Portrait",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO8PortraityA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO8PortraityA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "DrivingPrivileges",
+            "printedName": "DrivingPrivileges",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO17DrivingPrivilegesyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO17DrivingPrivilegesyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "UnDistinguishingSign",
+            "printedName": "UnDistinguishingSign",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO20UnDistinguishingSignyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO20UnDistinguishingSignyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "AdministrativeNumber",
+            "printedName": "AdministrativeNumber",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO20AdministrativeNumberyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO20AdministrativeNumberyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "Sex",
+            "printedName": "Sex",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO3SexyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO3SexyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "Height",
+            "printedName": "Height",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO6HeightyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO6HeightyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "Weight",
+            "printedName": "Weight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO6WeightyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO6WeightyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "EyeColor",
+            "printedName": "EyeColor",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO8EyeColoryA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO8EyeColoryA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "HairColor",
+            "printedName": "HairColor",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO9HairColoryA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO9HairColoryA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "BirthPlace",
+            "printedName": "BirthPlace",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO10BirthPlaceyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO10BirthPlaceyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "ResidentAddress",
+            "printedName": "ResidentAddress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO15ResidentAddressyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO15ResidentAddressyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "PortraitCaptureDate",
+            "printedName": "PortraitCaptureDate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO19PortraitCaptureDateyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO19PortraitCaptureDateyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "AgeInYears",
+            "printedName": "AgeInYears",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO10AgeInYearsyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO10AgeInYearsyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "AgeBirthYear",
+            "printedName": "AgeBirthYear",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO12AgeBirthYearyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO12AgeBirthYearyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "AgeOverNN",
+            "printedName": "AgeOverNN",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO9AgeOverNNyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO9AgeOverNNyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "AgeOver18",
+            "printedName": "AgeOver18",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO9AgeOver18yA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO9AgeOver18yA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "ageOver21",
+            "printedName": "ageOver21",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO9ageOver21yA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO9ageOver21yA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "IssuingJurisdiction",
+            "printedName": "IssuingJurisdiction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO19IssuingJurisdictionyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO19IssuingJurisdictionyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "Nationality",
+            "printedName": "Nationality",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO11NationalityyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO11NationalityyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "ResidentCity",
+            "printedName": "ResidentCity",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO12ResidentCityyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO12ResidentCityyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "ResidentState",
+            "printedName": "ResidentState",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO13ResidentStateyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO13ResidentStateyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "ResidentPostalCode",
+            "printedName": "ResidentPostalCode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO18ResidentPostalCodeyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO18ResidentPostalCodeyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "ResidentCountry",
+            "printedName": "ResidentCountry",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO15ResidentCountryyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO15ResidentCountryyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "BiometricTemplateXX",
+            "printedName": "BiometricTemplateXX",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO19BiometricTemplateXXyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO19BiometricTemplateXXyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "FamilyNameNationalCharacter",
+            "printedName": "FamilyNameNationalCharacter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO27FamilyNameNationalCharacteryA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO27FamilyNameNationalCharacteryA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "GivenNameNationalCharacter",
+            "printedName": "GivenNameNationalCharacter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO26GivenNameNationalCharacteryA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO26GivenNameNationalCharacteryA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "SignatureUsualMark",
+            "printedName": "SignatureUsualMark",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO18SignatureUsualMarkyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO18SignatureUsualMarkyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "vehicleCategoryCode",
+            "printedName": "vehicleCategoryCode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO19vehicleCategoryCodeyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO19vehicleCategoryCodeyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "codes",
+            "printedName": "codes",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO5codesyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO5codesyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "age",
+            "printedName": "age",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.DataIdentifier.Type) -> CustomFramework.DataIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CustomFramework.DataIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CustomFramework14DataIdentifierO3ageyA2CmF",
+            "mangledName": "$s15CustomFramework14DataIdentifierO3ageyA2CmF",
+            "moduleName": "CustomFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CustomFramework.DataIdentifier?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15CustomFramework14DataIdentifierO8rawValueACSgSS_tcfc",
+            "mangledName": "$s15CustomFramework14DataIdentifierO8rawValueACSgSS_tcfc",
+            "moduleName": "CustomFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CustomFramework14DataIdentifierO8rawValueSSvp",
+            "mangledName": "$s15CustomFramework14DataIdentifierO8rawValueSSvp",
+            "moduleName": "CustomFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework14DataIdentifierO8rawValueSSvg",
+                "mangledName": "$s15CustomFramework14DataIdentifierO8rawValueSSvg",
+                "moduleName": "CustomFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CustomFramework.DataIdentifier]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CustomFramework14DataIdentifierO8allCasesSayACGvpZ",
+            "mangledName": "$s15CustomFramework14DataIdentifierO8allCasesSayACGvpZ",
+            "moduleName": "CustomFramework",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CustomFramework.DataIdentifier]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework14DataIdentifierO8allCasesSayACGvgZ",
+                "mangledName": "$s15CustomFramework14DataIdentifierO8allCasesSayACGvgZ",
+                "moduleName": "CustomFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CustomFramework14DataIdentifierO11descriptionSSvp",
+            "mangledName": "$s15CustomFramework14DataIdentifierO11descriptionSSvp",
+            "moduleName": "CustomFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework14DataIdentifierO11descriptionSSvg",
+                "mangledName": "$s15CustomFramework14DataIdentifierO11descriptionSSvg",
+                "moduleName": "CustomFramework",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15CustomFramework14DataIdentifierO",
+        "mangledName": "$s15CustomFramework14DataIdentifierO",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CustomFramework.DataIdentifier]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataIdentifier",
+                        "printedName": "CustomFramework.DataIdentifier",
+                        "usr": "s:15CustomFramework14DataIdentifierO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1108,6 +2775,127 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKManager",
+        "printedName": "SDKManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(readerCertificate:readerCertificatePrivateKey:issuerCertificates:selectedDataIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CustomFramework.DataIdentifier]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataIdentifier",
+                    "printedName": "CustomFramework.DataIdentifier",
+                    "usr": "s:15CustomFramework14DataIdentifierO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15CustomFramework10SDKManagerC9configure17readerCertificate0eF10PrivateKey18issuerCertificates22selectedDataIdentifiery10Foundation0L0V_AKSayAKGSayAA0lM0OGtF",
+            "mangledName": "$s15CustomFramework10SDKManagerC9configure17readerCertificate0eF10PrivateKey18issuerCertificates22selectedDataIdentifiery10Foundation0L0V_AKSayAKGSayAA0lM0OGtF",
+            "moduleName": "CustomFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createMdlRequest",
+            "printedName": "createMdlRequest(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15CustomFramework10SDKManagerC16createMdlRequest4fromySS_tF",
+            "mangledName": "$s15CustomFramework10SDKManagerC16createMdlRequest4fromySS_tF",
+            "moduleName": "CustomFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createMdlRequestFromNFC",
+            "printedName": "createMdlRequestFromNFC()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15CustomFramework10SDKManagerC23createMdlRequestFromNFCyyF",
+            "mangledName": "$s15CustomFramework10SDKManagerC23createMdlRequestFromNFCyyF",
+            "moduleName": "CustomFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15CustomFramework10SDKManagerC",
+        "mangledName": "$s15CustomFramework10SDKManagerC",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -4030,532 +5818,532 @@
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 178,
+      "offset": 185,
       "length": 13,
       "value": "\"family_name\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 214,
+      "offset": 221,
       "length": 12,
       "value": "\"given_name\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 250,
+      "offset": 257,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 284,
+      "offset": 291,
       "length": 12,
       "value": "\"issue_date\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 319,
+      "offset": 326,
       "length": 13,
       "value": "\"expiry_date\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 359,
+      "offset": 366,
       "length": 17,
       "value": "\"issuing_country\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 405,
+      "offset": 412,
       "length": 19,
       "value": "\"issuing_authority\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 451,
+      "offset": 458,
       "length": 17,
       "value": "\"document_number\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 489,
+      "offset": 496,
       "length": 10,
       "value": "\"portrait\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 529,
+      "offset": 536,
       "length": 20,
       "value": "\"driving_privileges\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 582,
+      "offset": 589,
       "length": 24,
       "value": "\"un_distinguishing_sign\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 639,
+      "offset": 646,
       "length": 23,
       "value": "\"administrative_number\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 678,
+      "offset": 685,
       "length": 5,
       "value": "\"sex\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 702,
+      "offset": 709,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 729,
+      "offset": 736,
       "length": 8,
       "value": "\"weight\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 765,
       "length": 12,
       "value": "\"eye_colour\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 799,
       "length": 13,
       "value": "\"hair_colour\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 828,
+      "offset": 835,
       "length": 13,
       "value": "\"birth_place\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 869,
+      "offset": 876,
       "length": 18,
       "value": "\"resident_address\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 919,
+      "offset": 926,
       "length": 23,
       "value": "\"portrait_capture_date\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 965,
+      "offset": 972,
       "length": 14,
       "value": "\"age_in_years\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1011,
       "length": 16,
       "value": "\"age_birth_year\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1042,
+      "offset": 1049,
       "length": 13,
       "value": "\"age_over_NN\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1077,
+      "offset": 1084,
       "length": 13,
       "value": "\"age_over_18\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1112,
+      "offset": 1119,
       "length": 13,
       "value": "\"age_over_21\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1164,
       "length": 22,
       "value": "\"issuing_jurisdiction\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1210,
       "length": 13,
       "value": "\"nationality\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1241,
+      "offset": 1248,
       "length": 15,
       "value": "\"resident_city\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1282,
+      "offset": 1289,
       "length": 16,
       "value": "\"resident_state\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1329,
+      "offset": 1336,
       "length": 22,
       "value": "\"resident_postal_code\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1379,
+      "offset": 1386,
       "length": 18,
       "value": "\"resident_country\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1429,
+      "offset": 1436,
       "length": 23,
       "value": "\"biometric_template_xx\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1492,
+      "offset": 1499,
       "length": 32,
       "value": "\"family_name_national_character\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1570,
       "length": 31,
       "value": "\"given_name_national_character\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1625,
+      "offset": 1632,
       "length": 22,
       "value": "\"signature_usual_mark\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1679,
+      "offset": 1686,
       "length": 23,
       "value": "\"vehicle_category_code\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1720,
+      "offset": 1727,
       "length": 7,
       "value": "\"codes\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1743,
+      "offset": 1750,
       "length": 5,
       "value": "\"age\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 178,
+      "offset": 185,
       "length": 13,
       "value": "\"family_name\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 214,
+      "offset": 221,
       "length": 12,
       "value": "\"given_name\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 250,
+      "offset": 257,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 284,
+      "offset": 291,
       "length": 12,
       "value": "\"issue_date\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 319,
+      "offset": 326,
       "length": 13,
       "value": "\"expiry_date\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 359,
+      "offset": 366,
       "length": 17,
       "value": "\"issuing_country\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 405,
+      "offset": 412,
       "length": 19,
       "value": "\"issuing_authority\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 451,
+      "offset": 458,
       "length": 17,
       "value": "\"document_number\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 489,
+      "offset": 496,
       "length": 10,
       "value": "\"portrait\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 529,
+      "offset": 536,
       "length": 20,
       "value": "\"driving_privileges\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 582,
+      "offset": 589,
       "length": 24,
       "value": "\"un_distinguishing_sign\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 639,
+      "offset": 646,
       "length": 23,
       "value": "\"administrative_number\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 678,
+      "offset": 685,
       "length": 5,
       "value": "\"sex\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 702,
+      "offset": 709,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 729,
+      "offset": 736,
       "length": 8,
       "value": "\"weight\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 765,
       "length": 12,
       "value": "\"eye_colour\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 799,
       "length": 13,
       "value": "\"hair_colour\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 828,
+      "offset": 835,
       "length": 13,
       "value": "\"birth_place\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 869,
+      "offset": 876,
       "length": 18,
       "value": "\"resident_address\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 919,
+      "offset": 926,
       "length": 23,
       "value": "\"portrait_capture_date\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 965,
+      "offset": 972,
       "length": 14,
       "value": "\"age_in_years\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1011,
       "length": 16,
       "value": "\"age_birth_year\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1042,
+      "offset": 1049,
       "length": 13,
       "value": "\"age_over_NN\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1077,
+      "offset": 1084,
       "length": 13,
       "value": "\"age_over_18\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1112,
+      "offset": 1119,
       "length": 13,
       "value": "\"age_over_21\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1164,
       "length": 22,
       "value": "\"issuing_jurisdiction\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1210,
       "length": 13,
       "value": "\"nationality\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1241,
+      "offset": 1248,
       "length": 15,
       "value": "\"resident_city\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1282,
+      "offset": 1289,
       "length": 16,
       "value": "\"resident_state\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1329,
+      "offset": 1336,
       "length": 22,
       "value": "\"resident_postal_code\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1379,
+      "offset": 1386,
       "length": 18,
       "value": "\"resident_country\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1429,
+      "offset": 1436,
       "length": 23,
       "value": "\"biometric_template_xx\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1492,
+      "offset": 1499,
       "length": 32,
       "value": "\"family_name_national_character\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1570,
       "length": 31,
       "value": "\"given_name_national_character\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1625,
+      "offset": 1632,
       "length": 22,
       "value": "\"signature_usual_mark\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1679,
+      "offset": 1686,
       "length": 23,
       "value": "\"vehicle_category_code\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1720,
+      "offset": 1727,
       "length": 7,
       "value": "\"codes\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/DocumentRequests\/DataIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 1743,
+      "offset": 1750,
       "length": 5,
       "value": "\"age\""
     },
