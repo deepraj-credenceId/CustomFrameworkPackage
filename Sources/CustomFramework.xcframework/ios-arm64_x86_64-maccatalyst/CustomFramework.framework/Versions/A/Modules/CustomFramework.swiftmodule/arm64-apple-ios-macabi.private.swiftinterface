@@ -62,29 +62,34 @@ public enum DataIdentifier : Swift.String, Swift.CaseIterable {
     get
   }
 }
-extension CustomFramework.DataIdentifier : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
-}
 precedencegroup ExponentiationPrecedence {
   associativity: left
   higherThan: MultiplicationPrecedence
   lowerThan: BitwiseShiftPrecedence
 }
 infix operator ** : ExponentiationPrecedence
+public struct BLEConfiguration {
+}
+public protocol SDKManagerDelegate : AnyObject {
+  func didRecivedError(credenceError: CustomFramework.CredenceError)
+  func didReceivedMdlRequest(mdlRequest: Foundation.Data, bleConfiguration: CustomFramework.BLEConfiguration)
+}
 public struct SDK {
   public static func configure(apiKeu: Swift.String)
   public static func doSomeWork()
 }
+public typealias CredenceError = (deviceEngagementError: CustomFramework.CredenceErrorStruct?, dataRetrievalError: CustomFramework.CredenceErrorStruct?, validationError: [CustomFramework.CredenceErrorStruct])
 extension ObjectiveC.NSObject : Any {
 }
 @_hasMissingDesignatedInitializers public class SDKManager {
   public static let shared: CustomFramework.SDKManager
+  public var delegate: (any CustomFramework.SDKManagerDelegate)?
   public func configure(readerCertificate: Foundation.Data, readerCertificatePrivateKey: Foundation.Data, issuerCertificates: [Foundation.Data], selectedDataIdentifier: [CustomFramework.DataIdentifier])
   public func createMdlRequest(from qrCode: Swift.String)
   public func createMdlRequestFromNFC()
   @objc deinit
+}
+public struct CredenceErrorStruct : Swift.Error {
 }
 extension CustomFramework.DataIdentifier : Swift.Equatable {}
 extension CustomFramework.DataIdentifier : Swift.Hashable {}

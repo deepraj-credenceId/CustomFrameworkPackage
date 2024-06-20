@@ -1848,48 +1848,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Var",
-            "name": "description",
-            "printedName": "description",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15CustomFramework14DataIdentifierO11descriptionSSvp",
-            "mangledName": "$s15CustomFramework14DataIdentifierO11descriptionSSvp",
-            "moduleName": "CustomFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15CustomFramework14DataIdentifierO11descriptionSSvg",
-                "mangledName": "$s15CustomFramework14DataIdentifierO11descriptionSSvg",
-                "moduleName": "CustomFramework",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
           }
         ],
         "declKind": "Enum",
@@ -1966,13 +1924,6 @@
             ],
             "usr": "s:s12CaseIterableP",
             "mangledName": "$ss12CaseIterableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
           }
         ]
       },
@@ -2232,6 +2183,137 @@
         "moduleName": "CustomFramework",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BLEConfiguration",
+        "printedName": "BLEConfiguration",
+        "declKind": "Struct",
+        "usr": "s:15CustomFramework16BLEConfigurationV",
+        "mangledName": "$s15CustomFramework16BLEConfigurationV",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKManagerDelegate",
+        "printedName": "SDKManagerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didRecivedError",
+            "printedName": "didRecivedError(credenceError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(deviceEngagementError: CustomFramework.CredenceErrorStruct?, dataRetrievalError: CustomFramework.CredenceErrorStruct?, validationError: [CustomFramework.CredenceErrorStruct])",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CustomFramework.CredenceErrorStruct?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CredenceErrorStruct",
+                        "printedName": "CustomFramework.CredenceErrorStruct",
+                        "usr": "s:15CustomFramework19CredenceErrorStructV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CustomFramework.CredenceErrorStruct?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CredenceErrorStruct",
+                        "printedName": "CustomFramework.CredenceErrorStruct",
+                        "usr": "s:15CustomFramework19CredenceErrorStructV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CustomFramework.CredenceErrorStruct]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CredenceErrorStruct",
+                        "printedName": "CustomFramework.CredenceErrorStruct",
+                        "usr": "s:15CustomFramework19CredenceErrorStructV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15CustomFramework18SDKManagerDelegateP15didRecivedError08credenceG0yAA08CredenceG6StructVSg016deviceEngagementG0_AH013dataRetrievalG0SayAGG010validationG0t_tF",
+            "mangledName": "$s15CustomFramework18SDKManagerDelegateP15didRecivedError08credenceG0yAA08CredenceG6StructVSg016deviceEngagementG0_AH013dataRetrievalG0SayAGG010validationG0t_tF",
+            "moduleName": "CustomFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : CustomFramework.SDKManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : CustomFramework.SDKManagerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceivedMdlRequest",
+            "printedName": "didReceivedMdlRequest(mdlRequest:bleConfiguration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BLEConfiguration",
+                "printedName": "CustomFramework.BLEConfiguration",
+                "usr": "s:15CustomFramework16BLEConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15CustomFramework18SDKManagerDelegateP21didReceivedMdlRequest03mdlH016bleConfigurationy10Foundation4DataV_AA16BLEConfigurationVtF",
+            "mangledName": "$s15CustomFramework18SDKManagerDelegateP21didReceivedMdlRequest03mdlH016bleConfigurationy10Foundation4DataV_AA16BLEConfigurationVtF",
+            "moduleName": "CustomFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : CustomFramework.SDKManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : CustomFramework.SDKManagerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15CustomFramework18SDKManagerDelegateP",
+        "mangledName": "$s15CustomFramework18SDKManagerDelegateP",
+        "moduleName": "CustomFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -2791,6 +2873,116 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any CustomFramework.SDKManagerDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKManagerDelegate",
+                    "printedName": "any CustomFramework.SDKManagerDelegate",
+                    "usr": "s:15CustomFramework18SDKManagerDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CustomFramework10SDKManagerC8delegateAA0C8Delegate_pSgvp",
+            "mangledName": "$s15CustomFramework10SDKManagerC8delegateAA0C8Delegate_pSgvp",
+            "moduleName": "CustomFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CustomFramework.SDKManagerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKManagerDelegate",
+                        "printedName": "any CustomFramework.SDKManagerDelegate",
+                        "usr": "s:15CustomFramework18SDKManagerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework10SDKManagerC8delegateAA0C8Delegate_pSgvg",
+                "mangledName": "$s15CustomFramework10SDKManagerC8delegateAA0C8Delegate_pSgvg",
+                "moduleName": "CustomFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CustomFramework.SDKManagerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKManagerDelegate",
+                        "printedName": "any CustomFramework.SDKManagerDelegate",
+                        "usr": "s:15CustomFramework18SDKManagerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework10SDKManagerC8delegateAA0C8Delegate_pSgvs",
+                "mangledName": "$s15CustomFramework10SDKManagerC8delegateAA0C8Delegate_pSgvs",
+                "moduleName": "CustomFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework10SDKManagerC8delegateAA0C8Delegate_pSgvM",
+                "mangledName": "$s15CustomFramework10SDKManagerC8delegateAA0C8Delegate_pSgvM",
+                "moduleName": "CustomFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "configure",
             "printedName": "configure(readerCertificate:readerCertificatePrivateKey:issuerCertificates:selectedDataIdentifier:)",
@@ -2924,6 +3116,34 @@
         "moduleName": "CustomFramework",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CredenceErrorStruct",
+        "printedName": "CredenceErrorStruct",
+        "declKind": "Struct",
+        "usr": "s:15CustomFramework19CredenceErrorStructV",
+        "mangledName": "$s15CustomFramework19CredenceErrorStructV",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -7451,70 +7671,70 @@
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Helper\/SDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 926,
+      "offset": 940,
       "length": 16,
       "value": "\"BLE_PERIPHERAL\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Helper\/SDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 965,
+      "offset": 979,
       "length": 13,
       "value": "\"BLE_CENTRAL\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Helper\/SDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 999,
+      "offset": 1013,
       "length": 11,
       "value": "\"BLE_L2CAP\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Helper\/SDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1026,
+      "offset": 1040,
       "length": 5,
       "value": "\"NFC\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Helper\/SDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1048,
+      "offset": 1062,
       "length": 12,
       "value": "\"WIFI_AWARE\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Helper\/SDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 926,
+      "offset": 940,
       "length": 16,
       "value": "\"BLE_PERIPHERAL\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Helper\/SDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 965,
+      "offset": 979,
       "length": 13,
       "value": "\"BLE_CENTRAL\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Helper\/SDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 999,
+      "offset": 1013,
       "length": 11,
       "value": "\"BLE_L2CAP\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Helper\/SDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1026,
+      "offset": 1040,
       "length": 5,
       "value": "\"NFC\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Helper\/SDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1048,
+      "offset": 1062,
       "length": 12,
       "value": "\"WIFI_AWARE\""
     },
@@ -8571,420 +8791,420 @@
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 1978,
+      "offset": 1985,
       "length": 12,
       "value": "\"Validation\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 2032,
+      "offset": 2039,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 2084,
+      "offset": 2091,
       "length": 57,
       "value": "\"Issuer data authentication (mDL data has been modified)\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 2196,
+      "offset": 2203,
       "length": 32,
       "value": "\"mDL data authentication failed\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 2293,
+      "offset": 2300,
       "length": 32,
       "value": "\"mDL data authentication failed\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 2379,
+      "offset": 2386,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 2436,
+      "offset": 2443,
       "length": 3,
       "value": "311"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "BooleanLiteral",
-      "offset": 2494,
+      "offset": 2501,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 3015,
+      "offset": 3022,
       "length": 31,
       "value": "\"Issuing authority not trusted\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 3103,
+      "offset": 3110,
       "length": 35,
       "value": "\"mDL issuing authority not trusted\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 3205,
+      "offset": 3212,
       "length": 35,
       "value": "\"mDL issuing authority not trusted\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 3296,
+      "offset": 3303,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 3355,
+      "offset": 3362,
       "length": 3,
       "value": "313"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "BooleanLiteral",
-      "offset": 3415,
+      "offset": 3422,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 3954,
+      "offset": 3961,
       "length": 39,
       "value": "\"Issuing authority certificate expired\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 4051,
+      "offset": 4058,
       "length": 43,
       "value": "\"mDL issuing authority certificate expired\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 4162,
+      "offset": 4169,
       "length": 43,
       "value": "\"mDL issuing authority certificate expired\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 4262,
+      "offset": 4269,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 4322,
+      "offset": 4329,
       "length": 3,
       "value": "314"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "BooleanLiteral",
-      "offset": 4383,
+      "offset": 4390,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 4982,
+      "offset": 4989,
       "length": 19,
       "value": "\"Device Engagement\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 5049,
+      "offset": 5056,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 5090,
+      "offset": 5097,
       "length": 28,
       "value": "\"Scanned QR code is invalid\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 5162,
+      "offset": 5169,
       "length": 29,
       "value": "\"Please scan a valid QR code\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 5245,
+      "offset": 5252,
       "length": 28,
       "value": "\"Scanned QR code is invalid\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 5316,
+      "offset": 5323,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 5362,
+      "offset": 5369,
       "length": 3,
       "value": "111"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "BooleanLiteral",
-      "offset": 5409,
+      "offset": 5416,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 5841,
+      "offset": 5848,
       "length": 15,
       "value": "\"NFC tag error\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 5898,
+      "offset": 5905,
       "length": 34,
       "value": "\"Not an ID. Please try a valid ID\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 5984,
+      "offset": 5991,
       "length": 15,
       "value": "\"NFC tag error\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 6040,
+      "offset": 6047,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 6084,
+      "offset": 6091,
       "length": 3,
       "value": "116"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "BooleanLiteral",
-      "offset": 6129,
+      "offset": 6136,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 6558,
+      "offset": 6565,
       "length": 27,
       "value": "\"NFC static handover error\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 6638,
+      "offset": 6645,
       "length": 19,
       "value": "\"Tap and try again\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 6720,
+      "offset": 6727,
       "length": 11,
       "value": "\"NFC error\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 6783,
+      "offset": 6790,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 6838,
+      "offset": 6845,
       "length": 3,
       "value": "112"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "BooleanLiteral",
-      "offset": 6894,
+      "offset": 6901,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 7404,
+      "offset": 7411,
       "length": 31,
       "value": "\"NFC negotiated handover error\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 7492,
+      "offset": 7499,
       "length": 19,
       "value": "\"Tap and try again\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 7578,
+      "offset": 7585,
       "length": 11,
       "value": "\"NFC error\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 7645,
+      "offset": 7652,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 7704,
+      "offset": 7711,
       "length": 3,
       "value": "113"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "BooleanLiteral",
-      "offset": 7764,
+      "offset": 7771,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 8292,
+      "offset": 8299,
       "length": 51,
       "value": "\"Only Bluetooth data retrieval option is available\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 8390,
+      "offset": 8397,
       "length": 51,
       "value": "\"Only Bluetooth data retrieval option is available\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 8498,
+      "offset": 8505,
       "length": 51,
       "value": "\"Only Bluetooth data retrieval option is available\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 8595,
+      "offset": 8602,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 8644,
+      "offset": 8651,
       "length": 3,
       "value": "119"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "BooleanLiteral",
-      "offset": 8694,
+      "offset": 8701,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 9212,
+      "offset": 9219,
       "length": 16,
       "value": "\"Data Retrieval\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 9273,
+      "offset": 9280,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 9325,
+      "offset": 9332,
       "length": 42,
       "value": "\"Data retrieval failed with unknown error\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 9422,
+      "offset": 9429,
       "length": 42,
       "value": "\"Data retrieval failed with unknown error\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "StringLiteral",
-      "offset": 9529,
+      "offset": 9536,
       "length": 42,
       "value": "\"Data retrieval failed with unknown error\""
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 9625,
+      "offset": 9632,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "IntegerLiteral",
-      "offset": 9682,
+      "offset": 9689,
       "length": 3,
       "value": "218"
     },
     {
       "filePath": "\/Users\/cybadmin\/Documents\/Code\/Framework\/CustomFramework\/CustomFramework\/Others.swift",
       "kind": "BooleanLiteral",
-      "offset": 9741,
+      "offset": 9748,
       "length": 5,
       "value": "false"
     },
